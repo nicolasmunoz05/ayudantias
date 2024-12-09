@@ -1,0 +1,93 @@
+
+
+
+.login-container .form-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://sapprd.ucm.cl/sap/public/bc/ui2/logon/img/login_background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container .card {
+  width: 320px;
+  height: 300px;
+  background: white;
+  border: 2px solid rgb(110, 110, 110);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.login-container .button-container {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.login-container .button-container button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #3094ce;
+  border-radius: 5px;
+}
+
+.login-container .button-container button:hover {
+  background: #73ccff;
+}
+
+.login-container .button-container button:hover .access-button {
+  color: black;
+}
+
+.login-container .button-container button:focus {
+  box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.5);
+}
+
+.login-container .access-button {
+  width: 200%;
+  height: 200%;
+  text-decoration: none;
+  color: white;
+}
+
+.login-container .parrafo {
+  font-size: small;
+}
+
+/* Estilos para los campos de entrada */
+.login-container .input {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo para el placeholder */
+.login-container .input::placeholder {
+  color: #999; /* Color del texto del placeholder */
+}
+
+/* Estilo para el foco en el campo de entrada */
+.login-container .input:focus {
+  outline: none; /* Elimina el borde al hacer clic en el campo */
+  border-color: #007bff; /* Cambia el color del borde al hacer clic en el campo */
+  box-shadow: 0 0 5px #007bff; /* Agrega una sombra al hacer clic en el campo */
+}

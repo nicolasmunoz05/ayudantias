@@ -1,0 +1,31 @@
+Estilos para el componente VistaPreguntas
+
+.vista-estudiantes {
+    text-align: left;
+  }
+  
+  .contenido {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido en la página */
+  }
+  
+  .Titulo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .preguntas {
+    margin-bottom: 35px; /* Agrega un espacio entre cada pregunta */
+    text-align: justify;
+    text-size-adjust: 20px;
+  }
+  
+  .preguntas p:first-child {
+    font-weight: bold;
+    margin-top: 50px; /* Agrega un espacio entre cada pregunta */
+    
+  }
+  
+
+  

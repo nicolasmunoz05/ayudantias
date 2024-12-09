@@ -1,0 +1,40 @@
+/* Estilos para el contenedor del componente */
+.image-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px; /* Margen en todos los sentidos */
+  height: auto;
+  width: auto;
+}
+
+/* Estilos para el contenedor de la primera imagen */
+.image-container-first {
+  width: 1000px; /* Ancho de 300px (o el tamaño deseado) */
+  height: 500px; /* Alto de 400px (o el tamaño deseado) */
+  overflow: hidden; /* Oculta el desbordamiento de la imagen */
+  position: relative;
+  margin-right: 40px; /* Añade un margen entre las imágenes */
+}
+
+/* Estilos para la primera imagen en el carrusel */
+.image-container-first img {
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  height: 100%; /* Ajusta la altura automáticamente */
+  border-radius: 10px;
+}
+
+/* Estilos para el contenedor de la segunda imagen */
+.image-container-second {
+  width: 400px; /* Ancho de 300px (o el tamaño deseado) */
+  height: 600px; /* Alto de 400px (o el tamaño deseado) */
+  overflow: hidden; /* Oculta el desbordamiento de la imagen */
+  position: relative;
+  margin-left: 10px; /* Añade un margen entre las imágenes */
+}
+
+/* Estilos para la segunda imagen en el carrusel */
+.image-container-second img {
+  width: 400px; /* Ajusta el ancho al 100% del contenedor */
+  height: 600px; /* Ajusta la altura automáticamente */
+}

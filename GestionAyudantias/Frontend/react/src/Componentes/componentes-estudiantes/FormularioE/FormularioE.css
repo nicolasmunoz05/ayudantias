@@ -1,0 +1,95 @@
+/* Estilos generales para el formulario */
+.formulario-container {
+    width: 100%;
+    margin: 20px; 
+    margin-block-end: 10px;
+    justify-content: center;
+  }
+  
+  /* Estilos para cada grupo de entrada del formulario */
+  .form-group {
+    margin-bottom: 3px; 
+  }
+  
+  /* Estilos para las etiquetas del formulario */
+  .form-group label {
+    display: block; 
+    font-weight: bold;
+  }
+  
+  /* Estilos para los campos de entrada del formulario */
+  .form-group input {
+    width: 97%;
+    padding: 7px; 
+    border: 2px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 3px; 
+    margin-bottom: 3px;
+    
+  }
+  
+  /* Estilos para el botón de envío */
+  .formulario-container button {
+    margin-top: 15px; 
+    padding: 10px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Cambiar el color del botón al pasar el mouse por encima */
+  .formulario-container button:hover {
+    background-color: #0056b3;
+  }
+  /* ... (otros estilos) */
+
+/* Estilos para el botón de cancelar */
+.btn-cancelar {
+  background-color: #c22633; /* Color rojo */
+  margin: 0px;
+}
+
+/* Cambiar el color del botón al pasar el mouse por encima */
+.btn-cancelar:hover {
+  background-color: #991825; /* Cambiar el color al pasar el mouse */
+}
+
+/* Estilos para la clase cuando no se ha seleccionado una asignatura */
+.asignatura-no-seleccionada .form-control {
+  border: 2px solid #ff0000; /* Borde rojo */
+}
+
+/* Opcional: Estilos adicionales para resaltar la etiqueta también */
+.asignatura-no-seleccionada label {
+  color: #ff0000; /* Texto rojo */
+}
+
+/* Estilos para el contenedor del botón */
+.d-grid {
+  margin-top: 100px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilos para el botón */
+.d-grid button {
+  width: 100%; /* Ocupa el ancho completo del contenedor */
+}
+
+/* ... (otros estilos) */
+
+/* Estilos para el botón de preguntas */
+.btn-preguntas {
+  background-color: #045219; /* Cambia el color a verde */
+  color: #fff; /* Cambia el color del texto a blanco */
+  border: none;
+  width: 200px; /* Ajusta el ancho del botón */
+  height: 40px; /* Ajusta la altura del botón */
+}
+
+/* Cambiar el color del botón de preguntas al pasar el mouse por encima */
+.btn-preguntas:hover {
+  background-color: #123a1a; /* Cambia el color al pasar el mouse */
+}
+
+/* ... (otros estilos) */

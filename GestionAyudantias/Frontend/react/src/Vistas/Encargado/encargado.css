@@ -1,0 +1,40 @@
+  table {
+    width: 70%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .Aceptar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .Rechazar {
+    background-color: #dd2215;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  
+  .Aceptar:hover {
+    background-color: #45a049;}
+  .Rechazar:hover {
+    background-color: #b20600;    
+  }
+  

@@ -1,0 +1,74 @@
+/* Estilos para el componente Navbar */
+
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #253e85;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo_ucm {
+  width: 100px;
+}
+
+.header-toggle,
+.header-toggle2 {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.opciones-admin,
+.header-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #253e85;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.opciones-admin {
+  top: 40px;
+  left: 0;
+}
+
+.header-menu {
+  top: 40px;
+  right: 0;
+}
+
+.mostrar {
+  display: block;
+}
+
+.opciones-admin ul,
+.header-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.opciones-admin li,
+.header-menu li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.opciones-admin li:hover,
+.header-menu li:hover {
+  background-color: #4e66e1;
+}
+
+.sin-subrayado {
+  text-decoration: none;
+  color: white;
+}

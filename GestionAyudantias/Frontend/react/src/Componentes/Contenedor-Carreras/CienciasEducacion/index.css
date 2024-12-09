@@ -1,0 +1,27 @@
+.contenedor-tarjeta {
+    display: grid;
+    place-items: center;
+    margin: 5rem;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+}
+
+.tarjeta{
+    width: 320px;
+    height: 380px;
+    background: white;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.tarjeta img{
+    width: 150px;
+    height: 150px;
+}

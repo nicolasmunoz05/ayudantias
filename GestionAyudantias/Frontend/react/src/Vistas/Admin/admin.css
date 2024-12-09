@@ -1,0 +1,171 @@
+/* CSS GENERAL */
+.admin-container body {
+  margin: 70px 0 20px; /* Agrega margen superior para evitar que el contenido sea cubierto por el Navbar */
+  padding: 0;
+  background-image: url("https://sapprd.ucm.cl/sap/public/bc/ui2/logon/img/login_background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.admin-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+  /* Agrega margen para dar espacio alrededor de la tabla */
+
+}
+
+.admin-container th,
+.admin-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-container th {
+  background-color: #f2f2f2;
+}
+
+.admin-container .Aceptar {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.admin-container .Rechazar {
+  background-color: #dd2215;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.admin-container .Aceptar:hover {
+  background-color: #45a049;
+}
+
+.admin-container .Rechazar:hover {
+  background-color: #b20600;
+}
+
+/* CSS CREATE Y EDIT */
+/* Contenedor del formulario centrado */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://sapprd.ucm.cl/sap/public/bc/ui2/logon/img/login_background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh; /* Establecer una altura mínima */
+}
+
+
+.form {
+  max-width: 80%; /* Máximo ancho del formulario en relación con el contenedor */
+  width: 100%; /* Ocupa el 100% del ancho del contenedor */
+  padding-inline: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+/* Estilos para los campos del formulario */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+/* Estilos para el botón del formulario */
+.btn-success {
+  background-color: rgb(40, 139, 78);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 5px;
+  cursor: pointer;
+  min-width: 80px;
+  /* Establece una anchura mínima */
+  min-height: 10px;
+  /* Establece una anchura mínima */
+  margin-right: 5px;
+}
+
+
+
+.btn-primary {
+  background-color: rgb(0, 123, 255);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 5px;
+  cursor: pointer;
+  min-width: 80px;
+  /* Establece una anchura mínima */
+  min-height: 10px;
+  /* Establece una anchura mínima */
+  margin-right: 5px;
+}
+
+.btn-secondary {
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 5px;
+  cursor: pointer;
+  min-width: 80px;
+  /* Establece una anchura mínima */
+  min-height: 10px;
+  /* Establece una anchura mínima */
+  margin-right: 5px;
+}
+
+
+.btn-danger {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 5px;
+  cursor: pointer;
+  min-width: 80px;
+  /* Establece una anchura mínima */
+  min-height: 10px;
+  /* Establece una anchura mínima */
+}
+
+
+/* Estilos para los márgenes inferiores de los campos del formulario */
+.mb-3 {
+  margin-bottom: 20px;
+}
+.ml-1 {
+  margin-left: 6px;
+}
+
+.ml-3 {
+  margin-left: 10px;
+}

@@ -1,0 +1,68 @@
+/* VerResultados.css */
+
+/* Estilos para el contenedor principal */
+.vista-estudiantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para el contenido */
+  .contenido {
+    width: 80%;
+    margin-top: 20px;
+ 
+  }
+  
+  /* Estilos para el título */
+  p {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  /* Estilos para la tabla */
+  .table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  /* Estilos para las celdas del encabezado */
+  th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Estilos para las celdas de la tabla */
+  td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  /* Estilos para centrar el texto en las celdas, excepto en ID Ramo */
+  td {
+    text-align: center;
+  }
+  
+  /* Estilos para la fila de "No hay postulaciones" */
+  tr td[colspan="4"] {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+/* VerResultados.css */
+.aprobado {
+    color: green;
+  }
+  
+  .rechazado {
+    color: red;
+  }
+  
+  .pendiente {
+    color: #ffcc80; /* Naranja claro */
+  }
+  
