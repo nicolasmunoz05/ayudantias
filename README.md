@@ -1,6 +1,6 @@
 # Gestión de Ayudantías Universitarias
 
-Aplicación CRUD, informativa y administrativa para la gestión y postulación a ayudantías universitarias.
+Aplicación CRUD, informativa y administrativa para la gestión y postulación para impartir ayudantías universitarias. Posee base de datos relacional que limita y posibilita interacciones segun roles, notas, carreras, semestres y facultades en base a las presentes en Universidad Católica del Maule.
 
 ## Descripción
 
